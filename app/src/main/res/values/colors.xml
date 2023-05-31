@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Colores personalizados -->
+    <color name="red">#FF5252</color>
+    <color name="green">#8CBB58</color>
+    <color name="green_700">#6E9346</color>
+    <color name="gray">#979797</color>
+    <color name="light_gray">#E7E7E7</color>
+    <color name="color_primary_200">#8F7091</color>
+    <color name="color_primary">#9B829D</color>
+    <color name="color_primary_700">#864B67</color>
+    <color name="color_background">#F6EEEC</color>
+    <color name="color_textinputlayout_background">#C0CDB0</color>
+    <color name="color_textinputlayout_background_variant">#C9BBCA</color>
+    <color name="color_textinputlayout_border">#009688</color>
+    <color name="color_textinputlayout_border_variant">#735176</color>
+    <color name="color_border_shadow">#326146</color>
+    <color name="color_textinputlayout_highlight">#A1B6A1</color>
+    <color name="color_dialog_create_user_background">#E0EFCF</color>
+    <color name="color_dialog_create_user_textinputlayout">#C8DFAE</color>
+    <color name="color_dash_board_fragment_background">#e4e4e4</color>
+</resources>

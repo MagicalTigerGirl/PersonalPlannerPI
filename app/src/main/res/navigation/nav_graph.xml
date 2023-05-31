@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FirstFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.example.personalplanner.ui.FirstFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/ListaComidaFragment" />
+        <action
+            android:id="@+id/action_FirstFragment_to_gastosFragment"
+            app:destination="@id/gastosFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ListaComidaFragment"
+        android:name="com.example.personalplanner.ui.ListaComidaFragment"
+        android:label="Lista Comida"
+        tools:layout="@layout/fragment_lista_comida">
+        <action
+            android:id="@+id/action_SecondFragment_to_descriptionFoodFragment"
+            app:destination="@id/DescriptionFoodFragment" />
+        <action
+            android:id="@+id/action_SecondFragment_to_filtrosComidaFragment"
+            app:destination="@id/FiltrosComidaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/DescriptionFoodFragment"
+        android:name="com.example.personalplanner.ui.DescripcionComidaFragment"
+        android:label="Descripcion Comida" />
+    <fragment
+        android:id="@+id/FiltrosComidaFragment"
+        android:name="com.example.personalplanner.ui.FiltrosComidaFragment"
+        android:label="Filtros Comida"
+        tools:layout="@layout/fragment_filtros_comida" />
+    <fragment
+        android:id="@+id/gastosFragment"
+        android:name="com.example.personalplanner.ui.GastosFragment"
+        android:label="Tabla Gastos"
+        tools:layout="@layout/fragment_gastos">
+        <action
+            android:id="@+id/action_gastosFragment_to_modificarImporteGastosFragment"
+            app:destination="@id/modificarImporteGastosFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/modificarImporteGastosFragment"
+        android:name="com.example.personalplanner.ui.ModificarImporteGastosFragment"
+        android:label="Editar Gastos"
+        tools:layout="@layout/fragment_modificar_importe_gastos" />
+</navigation>
